@@ -1,0 +1,14 @@
+User-Agent: *
+Disallow: 
+Disallow: /https://vcmkcybersec.tech/sitemap.php/
+Disallow: /https://vcmkcybersec.tech/sitemap/
+Disallow: /https://vcmkcybersec.tech/login.php/
+Disallow: /https://vcmkcybersec.tech/login/
+Disallow: /https://vcmkcybersec.tech/logout.php/
+Disallow: /https://vcmkcybersec.tech/logout/
+Disallow: /https://vcmkcybersec.tech/getproducts.php/
+Disallow: /https://vcmkcybersec.tech/getproducts/
+Disallow: /https://vcmkcybersec.tech/androidfetch.php/
+Disallow: /https://vcmkcybersec.tech/androidfetch/
+Disallow: /https://vcmkcybersec.tech/vulnfetch.php/
+Disallow: /https://vcmkcybersec.tech/vulnfetch/

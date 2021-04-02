@@ -1,0 +1,14 @@
+
+ErrorDocument 400 http://vcmkcybersec.tech/error-400
+ErrorDocument 401 http://vcmkcybersec.tech/error-401
+ErrorDocument 403 http://vcmkcybersec.tech/error-403
+ErrorDocument 404 http://vcmkcybersec.tech/error-404
+ErrorDocument 503 http://vcmkcybersec.tech/error-503
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^/]*)\.xml$ /xml/sitemap.php [L]
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
